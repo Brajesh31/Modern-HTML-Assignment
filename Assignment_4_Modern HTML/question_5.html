@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Features of HTML5</h1>
+    <p>Welcome to my webpage showcasing features of HTML5</p>
+    <section>
+        <h3>Feature 1 : Semantics with New Structural Elements</h3>
+        <p>HTML5 introduces several new semantic elements that provide a clearer structure to web documents. These include:</p>
+        <ul>
+            <li><b>&lt;header&gt;</b> Represents the header of a section or a page.</li>
+            <li><b> &lt;nav&gt;</b>Defines a set of navigation links.</li>
+            <li><b> &lt;article&gt;</b>Represents a self-contained piece of content that could be distributed and reused independently.</li>
+            <li><b> &lt;section&gt;</b>Defines a section in a document.</li>
+            <li><b> &lt;footer&gt;</b>Represents the footer of a section or a page.</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Feature 2 : Audio and Video Embedding</h3>
+        <p>HTML5 makes it easier to embed audio and video directly into web pages using the &lt;audio&gt; and &lt;video&gt; elements.</p>
+        <div style="display: flex; justify-content: space-around; align-items: center;">
+            <audio controls>
+                <source src="./media/mixkit-game-show-suspense-waiting-667.wav" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <video width="240" height="180" controls>
+                <source src="./media/mixkit-a-spooky-zombie-walking-in-a-dark-hallway-51521-medium.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </div>
+    </section>
+    <section>
+        <h3>Feature 3 : Form Validation</h3>
+        <p>HTML5 introduced built-in form validation features, allowing you to validate user input without relying solely on JavaScript. The validation is performed using attributes and pseudo-classes.</p>
+        <h1>Sign in</h1>
+        <form action="#" method="post" novalidate>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="8">
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>&copy; 2023 Sourav Halder</p>
+    </footer>
+</body>
+</html>
